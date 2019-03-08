@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  earthqueakeapi:
+    image: ${DOCKER_REGISTRY}earthqueakeapi
+    build:
+      context: .
+      dockerfile: EarthqueakeApi/Dockerfile
